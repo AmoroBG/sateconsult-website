@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 body{
+  width: 100%;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.25rem;
   overflow-x: hidden;
@@ -208,3 +209,102 @@ section .contact-info{
 .scroll-to-top-button:hover{
   background-color: mediumblue;
 }
+
+/* Media Queries */
+
+/* Medium devices (landscape tablets, 768px and down) */
+@media only screen and (max-width: 768px) {
+body {
+    font-size: 1.125rem;
+    line-height: 1.25;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    background-color: red;
+  }
+
+  /* Utility Classes */
+  a {
+   padding: 0.8rem;
+  }
+  h1,
+  h2 {
+    margin: 0 2.55rem;
+  }
+
+  button {
+   padding: 0.8rem;
+    font-size: 1.125rem;
+  }
+
+  .hero,
+  .about,
+  .programs,
+  .partners,
+  .contact,
+  .blog {
+    padding: 2rem 5rem;
+  }
+
+  img {
+    width: 50px;
+  }
+
+  /* Header and Footer */
+  header,
+  footer {
+    min-height: 60px;
+  }
+
+ .logo {
+    width: 175px;
+  }
+
+  /* Hero Section */
+  section.hero,
+  section.about {
+    gap: 0.8rem;
+  }
+
+   /* Programs */
+  section .program-lists {
+    gap: 1rem;
+    margin: 0.5rem 0;
+  }
+
+  section .program-lists div {
+    gap: 0.5rem;
+    padding: 0.8rem;
+  }
+
+  /* Partners */
+  section .partners-logos {
+    gap: 2rem;
+    margin: 0.8rem 0;
+  }
+
+  section .partners-logos img {
+    width: 150px;
+    padding: 1rem;
+  }
+
+  /* Scroll to Top Button */
+  .scroll-to-top-button {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Extra small devices (phones, 576px and down) */
+@media only screen and (max-width: 576px) {
+ 
+}
+
+/* Extra small devices (phones, 480px and down) */
+@media only screen and (max-width: 480px) {}
+
+
+
+
