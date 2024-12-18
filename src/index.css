@@ -103,7 +103,7 @@ nav a{
 /* Hero Section */
 section.hero{
   min-height: 75vh;
-  background-color: #262626;
+  background-color: #3b3b3b;
   color: white;
  
 }
@@ -191,7 +191,7 @@ section .partners-logos img:hover{
 
 /* Contact */
 section.contact{
-  background-color: #262626;
+background-color: #3b3b3b;
   color: #fff;
 }
 
