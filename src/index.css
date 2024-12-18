@@ -129,7 +129,6 @@ section.about ul li{
 
 section.about ul li::marker{
 color: #1fbe6b;
-font-size: 2rem;
 }
 
 section.about ul li:hover{
