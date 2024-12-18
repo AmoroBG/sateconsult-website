@@ -49,7 +49,7 @@ button:hover{
   background-color: #1fbe6b;
 }
 
-.hero, .about, .programs, .partners, .contact, .blog{
+.hero, .about, .programs, .partners, .contact{
     padding: 2.5rem 7.5rem;
     scroll-snap-align: start;
 }
@@ -69,8 +69,6 @@ img{
   color: #32de84;
  
 }
-
-
 
 /* Header and Footer */
 header, footer{
@@ -126,9 +124,10 @@ section.about ul{
 }
 
 section.about ul li::marker{
-  color: #1fbe6b;
-  font-size: 2rem;
+color: #1fbe6b;
+font-size: 2.5rem;
 }
+
 
 /* Programs */
 section.programs{
@@ -249,8 +248,7 @@ body {
   .about,
   .programs,
   .partners,
-  .contact,
-  .blog {
+  .contact {
     padding: 2rem 5rem;
   }
 
@@ -280,7 +278,7 @@ body {
     margin: 0.5rem 0;
   }
 
-  section .program-lists div {
+  section .program-lists div{
     gap: 0.5rem;
     padding: 0.8rem;
   }
@@ -327,8 +325,7 @@ body {
     .about,
     .programs,
     .partners,
-    .contact,
-    .blog {
+    .contact {
       padding: 2rem;
     }
   
@@ -370,8 +367,7 @@ body {
     .about,
     .programs,
     .partners,
-    .contact,
-    .blog {
+    .contact {
       text-align: justify;
     }
    
@@ -385,7 +381,7 @@ body {
     }
 
     /* Programs */
-    section .program-lists {
+    section .program-lists{
       gap: 0.5rem;
   
     }

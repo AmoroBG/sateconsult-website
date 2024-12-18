@@ -10,15 +10,15 @@ const About = ({ about }) => {
         ACSSAN is a network of organizations, social enterprises, and
         individuals passionate about taking sustainable actions, and working to
         combat climate change. We foster collective action and advocate for
-        policies promoting climate change mitigation and sustainable agriculture
+        policies promoting climate change mitigation and sustainable
+        agriculture. We engage, collaborate, empower, and advocate through:
       </p>
-      <p>We engage, collaborate, empower, and advocate through:</p>
       <ul>
         <li>Community mobilization, engagement, and awareness</li>
         <li>Knowledge sharing, research, and policy</li>
         <li>Networking, coordination, and collaboration</li>
         <li>Programs, projects, and events</li>
-        <li>Resource mobilization, distribution, and support </li>
+        <li>Resource mobilization and distribution</li>
       </ul>
     </section>
   );
