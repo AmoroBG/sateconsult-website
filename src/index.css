@@ -117,24 +117,6 @@ section.about{
   min-height: 50vh;
 }
 
-section.about ul{
-  text-align: left;
-  cursor: pointer;
-}
-
-section.about ul li{
-  padding: 0 1rem;
-  border-radius: 8px;
-}
-
-section.about ul li::marker{
-color: #1fbe6b;
-}
-
-section.about ul li:hover{
-  background-color: #1fbe6c17;
-}
-
 /* Programs */
 section.programs{
   min-height: 50vh;
