@@ -115,6 +115,7 @@ section.hero, section.about{
 /* About Section */
 section.about{
   min-height: 50vh;
+  text-align: justify;
 }
 
 /* Programs */
