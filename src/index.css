@@ -204,3 +204,7 @@ section .contact-info{
   border-radius: 8px;
   cursor: pointer;
 }
+
+.scroll-to-top-button:hover{
+  background-color: mediumblue;
+}
