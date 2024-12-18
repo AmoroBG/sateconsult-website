@@ -353,23 +353,10 @@ body {
 
 /* Extra small devices (phones, 576px and down) */
 @media only screen and (max-width: 576px) {
-  body {
-      font-size: 1rem;
-      background-color: yellow;
-    }
-  
-    /* Utility Classes */
-    a {
-      padding: 0.5rem;
-    }
-  
+    /* Utility Classes */ 
     h1,
     h2 {
-      margin: 0 2rem;
-    }
-  
-    button {
-      font-size: 1rem;
+      margin: 0 1rem;
     }
   
     .hero,
@@ -378,36 +365,22 @@ body {
     .partners,
     .contact,
     .blog {
-      padding: 2rem 2.5rem;
+      padding: 2rem;
     }
-  
-    img {
-      width: 45px;
-    }
-  
+   
     /* Header and Footer */
   
     .logo {
       width: 100px;
     }
-  
-    /* Hero Section */
-    section.hero,
-    section.about {
-      gap: 0.5rem;
+    ul.menu{
+      display: none;
     }
-  
+
     /* Programs */
     section .program-lists {
-      gap: 1rem;
-      flex-direction: column;
+      gap: 0.5rem;
   
-    }
-  
-  
-    /* Partners */
-    section .partners-logos img {
-      width: 100px;
     }
  
 }
