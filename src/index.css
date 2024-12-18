@@ -119,11 +119,21 @@ section.about{
 
 section.about ul{
   text-align: justify;
+  cursor: pointer;
+}
+
+section.about ul li{
+  padding: 0 1rem;
+  border-radius: 8px;
 }
 
 section.about ul li::marker{
 color: #1fbe6b;
-font-size: 2.5rem;
+font-size: 2rem;
+}
+
+section.about ul li:hover{
+  background-color: #1fbe6c17;
 }
 
 /* Programs */
