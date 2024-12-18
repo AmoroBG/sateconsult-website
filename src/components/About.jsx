@@ -8,11 +8,11 @@ const About = ({ about }) => {
       </h2>
       <p className="about-acssan">
         ACSSAN is a network of organizations, social enterprises, and
-        individuals passionate about taking sustainable actions and working to
-        combat climate change. We engage, collaborate, empower, and advocate for
+        individuals passionate about taking sustainable actions, and working to
+        combat climate change. We foster collective action and advocate for
         policies promoting climate change mitigation and sustainable agriculture
-        through:
       </p>
+      <p>We engage, collaborate, empower, and advocate through:</p>
       <ul>
         <li>Community mobilization, engagement, and awareness</li>
         <li>Knowledge sharing, research, and policy</li>
