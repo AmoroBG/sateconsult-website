@@ -28,9 +28,9 @@ a:hover{
 }
 
 h1, h2{
-  text-transform: uppercase;
+  text-transform: capitalize;
   text-align: center;
-  margin: 0 5rem;
+  
 }
 
 button{
@@ -63,6 +63,14 @@ button:hover{
 img{
   width: 75px;
 }
+
+.text-lg{
+  font-size: 2rem;
+  color: #32de84;
+ 
+}
+
+
 
 /* Header and Footer */
 header, footer{
