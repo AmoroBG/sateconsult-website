@@ -317,7 +317,7 @@ body {
     .partners,
     .contact,
     .blog {
-      padding: 2rem 2.5rem;
+      padding: 1.5rem;
     }
   
     img {
@@ -354,18 +354,14 @@ body {
 /* Extra small devices (phones, 576px and down) */
 @media only screen and (max-width: 576px) {
     /* Utility Classes */ 
-    h1,
-    h2 {
-      margin: 0 1rem;
-    }
-  
     .hero,
     .about,
     .programs,
     .partners,
     .contact,
     .blog {
-      padding: 2rem;
+      padding: 1rem;
+      text-align: justify;
     }
    
     /* Header and Footer */
