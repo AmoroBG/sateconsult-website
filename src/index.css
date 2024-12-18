@@ -65,9 +65,8 @@ img{
 }
 
 .text-lg{
-  font-size: 2rem;
+  font-size: 2rem; 
   color: #32de84;
- 
 }
 
 /* Header and Footer */
@@ -103,7 +102,6 @@ section.hero{
   min-height: 75vh;
   background-color: #3b3b3b;
   color: white;
- 
 }
 
 section.hero, section.about{
@@ -127,7 +125,6 @@ section.about ul li::marker{
 color: #1fbe6b;
 font-size: 2.5rem;
 }
-
 
 /* Programs */
 section.programs{
