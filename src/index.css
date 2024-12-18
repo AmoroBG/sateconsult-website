@@ -171,6 +171,9 @@ section .program-lists div:hover{
 }
 
 /* Partners */
+section.partners p{
+  text-align: center;
+}
 section.partners, section.contact {
   min-height: 25vh
 }
@@ -198,6 +201,9 @@ section .partners-logos img:hover{
 section.contact{
 background-color: #3b3b3b;
   color: #fff;
+}
+section.contact p{
+  text-align: center;
 }
 
 section .contact-info{
