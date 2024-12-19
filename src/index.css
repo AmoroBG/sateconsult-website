@@ -1,20 +1,20 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
+body {
   width: 100%;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.25rem;
   overflow-x: hidden;
   line-height: 1.5;
-scroll-snap-type: y mandatory;
-overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
 }
 
 /* Utility Classes */
-a{
+a {
   text-decoration: none;
   padding: 1rem;
   cursor: pointer;
@@ -22,18 +22,18 @@ a{
   border-radius: 8px;
 }
 
-a:hover{
+a:hover {
   color: #1fbe6b;
   border-bottom: 1px solid #1fbe6b;
 }
 
-h1, h2{
+h1,
+h2 {
   text-transform: capitalize;
   text-align: center;
-  
 }
 
-button{
+button {
   background-color: #32de84;
   color: #262626;
   cursor: pointer;
@@ -45,39 +45,45 @@ button{
   font-size: 1.25rem;
 }
 
-button:hover{
+button:hover {
   background-color: #1fbe6b;
 }
 
-.hero, .about, .programs, .partners, .contact{
-    padding: 2.5rem 7.5rem;
-    scroll-snap-align: start;
+.hero,
+.about,
+.programs,
+.partners,
+.contact {
+  padding: 2.5rem 7.5rem;
+  scroll-snap-align: start;
 }
 
-.acssan{
+.acssan {
   color: #32de84;
   font-weight: bold;
   text-transform: uppercase;
 }
 
-img{
+img {
   width: 75px;
 }
 
-.text-lg{
-  font-size: 2rem; 
+.text-lg {
+  font-size: 2rem;
   color: #32de84;
 }
 
 /* Header and Footer */
-header, footer{
+header,
+footer {
   width: 100%;
-  min-height: 65px;
+  min-height: 15vh;
+  /* min-height: 65px; */
   padding: 1rem;
   background-color: #fff;
 }
 
-nav{
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -86,47 +92,62 @@ nav{
 .logo {
   width: 250px;
 }
+nav a {
+  color: #262626;
+}
 
-ul.menu{
+ul.menu {
   list-style-type: none;
   display: flex;
   align-items: center;
 }
+nav .mobile-menu{
+  display: none;
+}
 
-nav a{
-  color: #262626;
+nav .hamburger{
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  font-size: 2rem;
+  color: #32de84;
+  font-weight: bold;
+  display: none;
+}
+nav .hamburger:hover{
+  color: #1fbe6b;
 }
 
 /* Hero Section */
-section.hero{
+section.hero {
   min-height: 75vh;
   background-color: #3b3b3b;
   color: white;
 }
 
-section.hero, section.about{
-    display: flex;
-    gap: 0.5rem;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+section.hero,
+section.about {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 /* About Section */
-section.about{
+section.about {
   min-height: 50vh;
   text-align: justify;
 }
 
 /* Programs */
-section.programs{
+section.programs {
   min-height: 50vh;
   background-color: #32de84;
   font-size: 1rem;
   /* color: #ffffff; */
 }
 
-section .program-lists{
+section .program-lists {
   display: flex;
   gap: 2rem;
   justify-content: space-between;
@@ -136,32 +157,32 @@ section .program-lists{
   padding: 1rem 0;
 }
 
-section .program-lists div{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-text-align: center;
-gap: 1rem;
-padding: 1rem;
-border-radius: 8px;
-cursor: pointer;
+section .program-lists div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
-section .program-lists div:hover{
+section .program-lists div:hover {
   background-color: #1fbe6b;
-  
 }
 
 /* Partners */
-section.partners p{
+section.partners p {
   text-align: center;
 }
-section.partners, section.contact {
-  min-height: 25vh
+section.partners,
+section.contact {
+  min-height: 25vh;
 }
 
-section .partners-logos{
+section .partners-logos {
   display: flex;
   gap: 2.5rem;
   align-items: center;
@@ -170,26 +191,26 @@ section .partners-logos{
   margin: 1rem 0;
 }
 
-section .partners-logos img{
+section .partners-logos img {
   width: 175px;
- padding: 2rem 1rem;
- border-radius: 8px;
+  padding: 2rem 1rem;
+  border-radius: 8px;
 }
 
-section .partners-logos img:hover{
- border-bottom: 1px solid #1fbe6b;
+section .partners-logos img:hover {
+  border-bottom: 1px solid #1fbe6b;
 }
 
 /* Contact */
-section.contact{
-background-color: #3b3b3b;
+section.contact {
+  background-color: #3b3b3b;
   color: #fff;
 }
-section.contact p{
+section.contact p {
   text-align: center;
 }
 
-section .contact-info{
+section .contact-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -200,7 +221,7 @@ section .contact-info{
 }
 
 /* Scroll to Top Button */
-.scroll-to-top-button{
+.scroll-to-top-button {
   position: fixed;
   bottom: 15px;
   right: 20px;
@@ -212,7 +233,7 @@ section .contact-info{
   cursor: pointer;
 }
 
-.scroll-to-top-button:hover{
+.scroll-to-top-button:hover {
   background-color: mediumblue;
 }
 
@@ -220,14 +241,14 @@ section .contact-info{
 
 /* Medium devices (landscape tablets, 768px and down) */
 @media only screen and (max-width: 768px) {
-body {
+  body {
     font-size: 1.125rem;
     line-height: 1.25;
   }
 
   /* Utility Classes */
   a {
-   padding: 0.8rem;
+    padding: 0.8rem;
   }
   h1,
   h2 {
@@ -235,7 +256,7 @@ body {
   }
 
   button {
-   padding: 0.8rem;
+    padding: 0.8rem;
     font-size: 1.125rem;
   }
 
@@ -252,14 +273,31 @@ body {
   }
 
   /* Header and Footer */
-  header,
-  footer {
-    min-height: 60px;
-  }
-
- .logo {
+  .logo {
     width: 175px;
   }
+  ul.menu{
+    display: none;
+  }
+  ul.mobile-menu {
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   align-items: flex-start;
+   padding: 0 2rem;
+    position: absolute;
+    top: 16vh;
+    left: 0;
+    height: 50vh;
+    width: 100%;
+    z-index: 1;
+  }
+
+    nav .hamburger{
+      display: inline;
+    }
+
 
   /* Hero Section */
   section.hero,
@@ -267,13 +305,13 @@ body {
     gap: 0.8rem;
   }
 
-   /* Programs */
+  /* Programs */
   section .program-lists {
     gap: 1rem;
     margin: 0.5rem 0;
   }
 
-  section .program-lists div{
+  section .program-lists div {
     gap: 0.5rem;
     padding: 0.8rem;
   }
@@ -299,93 +337,85 @@ body {
 /* Small devices (portrait tablets and large phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   body {
-      font-size: 1rem;
-    }
-  
-    /* Utility Classes */
-    a {
-      padding: 0.5rem;
-    }
-  
-    h1,
-    h2 {
-      margin: 0;
-    }
-  
-    button {
-      font-size: 1rem;
-    }
-  
-    .hero,
-    .about,
-    .programs,
-    .partners,
-    .contact {
-      padding: 2rem;
-    }
-  
-    img {
-      width: 45px;
-    }
-  
-    /* Header and Footer */
-     
-    .logo {
-      width: 150px;
-    }
-  
-    /* Hero Section */
-    section.hero,
-    section.about {
-      gap: 0.5rem;
-    }
-  
-    /* Programs */
-    section .program-lists {
-      gap: 1rem;
-      flex-direction: column;
+    font-size: 1rem;
+  }
 
-    }
-  
+  /* Utility Classes */
+  a {
+    padding: 0.5rem;
+  }
 
-    /* Partners */
-    section .partners-logos img {
-      width: 100px;
-    }
+  h1,
+  h2 {
+    margin: 0;
+  }
 
+  button {
+    font-size: 1rem;
+  }
+
+  .hero,
+  .about,
+  .programs,
+  .partners,
+  .contact {
+    padding: 2rem;
+  }
+
+  img {
+    width: 45px;
+  }
+
+  /* Header and Footer */
+
+  .logo {
+    width: 150px;
+  }
+
+  /* Hero Section */
+  section.hero,
+  section.about {
+    gap: 0.5rem;
+  }
+
+  /* Programs */
+  section .program-lists {
+    gap: 1rem;
+    flex-direction: column;
+  }
+
+  /* Partners */
+  section .partners-logos img {
+    width: 100px;
+  }
 }
 
 /* Extra small devices (phones, 576px and down) */
 @media only screen and (max-width: 576px) {
-    /* Utility Classes */ 
-    .hero,
-    .about,
-    .programs,
-    .partners,
-    .contact {
-      text-align: justify;
-    }
-   
-    /* Header and Footer */
-  
-    .logo {
-      width: 150px;
-    }
-    ul.menu{
-      display: none;
-    }
+  /* Utility Classes */
+  .hero,
+  .about,
+  .programs,
+  .partners,
+  .contact {
+    text-align: justify;
+  }
 
-    /* Programs */
-    section .program-lists{
-      gap: 0.5rem;
-  
-    }
- 
+  /* Header and Footer */
+
+  .logo {
+    width: 150px;
+  }
+  ul.menu {
+    display: none;
+  }
+
+  /* Programs */
+  section .program-lists {
+    gap: 0.5rem;
+  }
 }
 
 /* Extra small devices (phones, 480px and down) */
-@media only screen and (max-width: 480px) {}
-
-
-
-
+@media only screen and (max-width: 480px) {
+}

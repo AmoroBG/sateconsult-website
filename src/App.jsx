@@ -7,6 +7,7 @@ import Partners from "./components/Partners";
 import Programs from "./components/Programs";
 import ScrollToTop from "./components/ScrollToTop";
 
+
 function App() {
   const home = useRef(null);
   const about = useRef(null);
@@ -31,6 +32,7 @@ function App() {
         contact={contact}
         scrollToSection={scrollToSection}
       />
+    
       <Hero home={home} />
       <About about={about} />
       <Programs programs={programs} />

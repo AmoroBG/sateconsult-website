@@ -1,5 +1,9 @@
 import React from "react";
+import { useState } from "react";
+import { IoIosMenu } from "react-icons/io";
+import { IoCloseSharp } from "react-icons/io5";
 import acssanLogo from "../assets/acssanLogo.png";
+import MobileMenu from "./MobileMenu";
 
 const Header = ({
   home,
@@ -9,6 +13,12 @@ const Header = ({
   contact,
   scrollToSection,
 }) => {
+  const [clickHamburger, setClickHamburger] = useState(false);
+
+  const closeMobileMenu = () => {
+    setClickHamburger(false);
+  };
+
   return (
     <header>
       <nav>
@@ -34,6 +44,28 @@ const Header = ({
             <a href="#contact">Contact</a>
           </li>
         </ul>
+
+        {clickHamburger && (
+          <MobileMenu
+            home={home}
+            about={about}
+            programs={programs}
+            partners={partners}
+            contact={contact}
+            scrollToSection={scrollToSection}
+            isClicked={true}
+            closeMobileMenu={closeMobileMenu}
+          />
+        )}
+
+        <div className="hamburger">
+          {/* <IoIosMenu onClick={() => setClickHamburger(!clickHamburger)} /> */}
+          {clickHamburger ? (
+            <IoCloseSharp onClick={() => setClickHamburger(!clickHamburger)} />
+          ) : (
+            <IoIosMenu onClick={() => setClickHamburger(!clickHamburger)} />
+          )}
+        </div>
       </nav>
     </header>
   );

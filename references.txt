@@ -1,1 +1,2 @@
-Use React to Scroll to Specific Section on Your Website - https://www.youtube.com/watch?v=oszUqCqTGHo
+Use React to Scroll to Specific Section on Your Website in React - https://www.youtube.com/watch?v=oszUqCqTGHo
+Building a Hamburger Menu in React - https://kenudeh.hashnode.dev/how-to-build-a-responsive-navigation-menu-with-react
