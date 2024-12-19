@@ -102,14 +102,14 @@ ul.menu {
   align-items: center;
 }
 ul.mobile-menu{
-      background-color: #eee;
+      /* background-color: #eee; */
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
       align-items: flex-start;
       padding: 0 2rem;
       position: absolute;
-      top: 16vh;
+      top: 15vh;
       left: 0;
       height: 50vh;
       width: 100%;
@@ -299,7 +299,6 @@ section .contact-info {
 
     nav .hamburger{
       display: inline;
-      background-color: red;
     }
 
   /* Hero Section */
