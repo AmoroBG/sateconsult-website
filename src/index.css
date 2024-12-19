@@ -294,14 +294,13 @@ section .contact-info {
   }
   ul.mobile-menu {
     display: block;
-    
+  
   }
 
     nav .hamburger{
       display: inline;
       background-color: red;
     }
-
 
   /* Hero Section */
   section.hero,
