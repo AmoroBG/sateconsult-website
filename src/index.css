@@ -343,11 +343,7 @@ section .contact-info {
   }
 
   /* Utility Classes */
-  a {
-    padding: 0.5rem;
-  }
-
-  h1,
+   h1,
   h2 {
     margin: 0;
   }
