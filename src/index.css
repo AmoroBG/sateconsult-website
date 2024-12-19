@@ -101,7 +101,19 @@ ul.menu {
   display: flex;
   align-items: center;
 }
-nav .mobile-menu{
+ul.mobile-menu{
+      background-color: #eee;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: flex-start;
+      padding: 0 2rem;
+      position: absolute;
+      top: 16vh;
+      left: 0;
+      height: 50vh;
+      width: 100%;
+      z-index: 1;
   display: none;
 }
 
@@ -244,6 +256,7 @@ section .contact-info {
   body {
     font-size: 1.125rem;
     line-height: 1.25;
+    
   }
 
   /* Utility Classes */
@@ -280,22 +293,13 @@ section .contact-info {
     display: none;
   }
   ul.mobile-menu {
-    background-color: #eee;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-   align-items: flex-start;
-   padding: 0 2rem;
-    position: absolute;
-    top: 16vh;
-    left: 0;
-    height: 50vh;
-    width: 100%;
-    z-index: 1;
+    display: block;
+    
   }
 
     nav .hamburger{
       display: inline;
+      background-color: red;
     }
 
 
@@ -371,6 +375,9 @@ section .contact-info {
   .logo {
     width: 150px;
   }
+     /* ul.mobile-menu {
+       display: block;
+     } */
 
   /* Hero Section */
   section.hero,
@@ -405,9 +412,6 @@ section .contact-info {
 
   .logo {
     width: 150px;
-  }
-  ul.menu {
-    display: none;
   }
 
   /* Programs */
