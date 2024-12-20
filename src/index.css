@@ -296,6 +296,7 @@ nav .hamburger {
   font-size: 2rem;
   color: #32de84;
   font-weight: bold;
+  display: inline;
 }
 nav .hamburger:hover {
   color: #1fbe6b;
