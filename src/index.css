@@ -102,6 +102,13 @@ ul.menu {
   align-items: center;
 }
 
+nav .mobile-menu{
+  display: none;
+}
+
+nav .hamburger{
+  display: none;
+}
 
 /* Hero Section */
 section.hero {
