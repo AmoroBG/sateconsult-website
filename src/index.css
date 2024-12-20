@@ -101,33 +101,7 @@ ul.menu {
   display: flex;
   align-items: center;
 }
-ul.mobile-menu{
-      background-color: #fff;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
-      align-items: flex-start;
-      padding: 0 2rem;
-      position: absolute;
-      top: 15vh;
-      left: 0;
-      height: 50vh;
-      width: 100%;
-      z-index: 1;
-  display: none;
-}
 
-nav .hamburger{
-  cursor: pointer;
-  padding: 0.5rem 1rem;
-  font-size: 2rem;
-  color: #32de84;
-  font-weight: bold;
-  display: none;
-}
-nav .hamburger:hover{
-  color: #1fbe6b;
-}
 
 /* Hero Section */
 section.hero {
@@ -256,7 +230,6 @@ section .contact-info {
   body {
     font-size: 1.125rem;
     line-height: 1.25;
-    
   }
 
   /* Utility Classes */
@@ -289,17 +262,37 @@ section .contact-info {
   .logo {
     width: 175px;
   }
-  ul.menu{
+  /* Desktop Menu */
+  ul.menu {
     display: none;
   }
-  ul.mobile-menu {
-    display: block;
-  
-  }
 
-    nav .hamburger{
-      display: inline;
-    }
+  /* Mobile Menu */
+  ul.mobile-menu {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 0 2rem;
+  position: absolute;
+  top: 15vh;
+  left: 0;
+  height: 50vh;
+  width: 100%;
+  z-index: 1;
+}
+
+nav .hamburger {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  font-size: 2rem;
+  color: #32de84;
+  font-weight: bold;
+}
+nav .hamburger:hover {
+  color: #1fbe6b;
+}
 
   /* Hero Section */
   section.hero,
@@ -340,10 +333,11 @@ section .contact-info {
 @media only screen and (max-width: 600px) {
   body {
     font-size: 1rem;
+    background-color: blue;
   }
 
   /* Utility Classes */
-   h1,
+  h1,
   h2 {
     margin: 0;
   }
@@ -365,7 +359,6 @@ section .contact-info {
   }
 
   /* Header and Footer */
-
   .logo {
     width: 150px;
   }
@@ -400,7 +393,6 @@ section .contact-info {
   }
 
   /* Header and Footer */
-
   .logo {
     width: 150px;
   }
