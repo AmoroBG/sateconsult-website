@@ -3,10 +3,8 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import Partners from "./components/Partners";
 import Programs from "./components/Programs";
 import ScrollToTop from "./components/ScrollToTop";
-
 
 function App() {
   const home = useRef(null);
@@ -32,11 +30,10 @@ function App() {
         contact={contact}
         scrollToSection={scrollToSection}
       />
-    
+
       <Hero home={home} />
       <About about={about} />
       <Programs programs={programs} />
-      <Partners partners={partners} />
       <Contact contact={contact} />
       <ScrollToTop />
     </div>
