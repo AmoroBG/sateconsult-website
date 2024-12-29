@@ -3,10 +3,10 @@ import livelihoodImage from "../assets/livelihood.png";
 import climateImage from "../assets/climate.png";
 import agricultureImage from "../assets/agriculture.png";
 
-const Programs = ({programs}) => {
+const Services = ({services}) => {
   return (
-    <section className="programs" ref={programs}>
-      <h2>Our Programs</h2>
+    <section className="programs" ref={services}>
+      <h2>Our Services</h2>
       <div className="program-lists">
         <div className="livelihood">
           <img src={livelihoodImage} alt="" />
@@ -37,4 +37,4 @@ const Programs = ({programs}) => {
   );
 };
 
-export default Programs;
+export default Services;

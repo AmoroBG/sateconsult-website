@@ -3,14 +3,13 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import Programs from "./components/Programs";
+import Services from "./components/Services";
 import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   const home = useRef(null);
   const about = useRef(null);
-  const programs = useRef(null);
-  const partners = useRef(null);
+  const services = useRef(null);
   const contact = useRef(null);
 
   const scrollToSection = (elementRef) => {
@@ -25,15 +24,14 @@ function App() {
       <Header
         home={home}
         about={about}
-        programs={programs}
-        partners={partners}
+        services={services}
         contact={contact}
         scrollToSection={scrollToSection}
       />
 
       <Hero home={home} />
       <About about={about} />
-      <Programs programs={programs} />
+      <Services services={services} />
       <Contact contact={contact} />
       <ScrollToTop />
     </div>

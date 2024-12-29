@@ -5,7 +5,7 @@
 }
 body {
   width: 100%;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: inter;
   font-size: 1.25rem;
   overflow-x: hidden;
   line-height: 1.5;
@@ -15,16 +15,16 @@ body {
 
 /* Utility Classes */
 a {
+  color: #262626;
   text-decoration: none;
   padding: 1rem;
   cursor: pointer;
-  color: #32de84;
   border-radius: 8px;
 }
 
 a:hover {
-  color: #1fbe6b;
-  border-bottom: 1px solid #1fbe6b;
+  color: #ffa500;
+  border-bottom: 1px solid #ffa500;
 }
 
 h1,
@@ -34,8 +34,8 @@ h2 {
 }
 
 button {
-  background-color: #32de84;
-  color: #262626;
+  background-color: #005aff;
+  color: white;
   cursor: pointer;
   outline: none;
   border: none;
@@ -46,7 +46,7 @@ button {
 }
 
 button:hover {
-  background-color: #1fbe6b;
+  background-color: #ffa500;
 }
 
 .hero,
@@ -57,20 +57,8 @@ button:hover {
   padding: 2.5rem 7.5rem;
   scroll-snap-align: start;
 }
-
-.acssan {
-  color: #32de84;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
 img {
   width: 75px;
-}
-
-.text-lg {
-  font-size: 2rem;
-  color: #32de84;
 }
 
 /* Header and Footer */
@@ -78,7 +66,6 @@ header,
 footer {
   width: 100%;
   min-height: 15vh;
-  /* min-height: 65px; */
   padding: 1rem;
   background-color: #fff;
 }
@@ -90,10 +77,7 @@ nav {
 }
 
 .logo {
-  width: 250px;
-}
-nav a {
-  color: #262626;
+  width: 200px;
 }
 
 ul.menu {

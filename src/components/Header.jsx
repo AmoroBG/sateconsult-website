@@ -5,7 +5,7 @@ import { IoCloseSharp } from "react-icons/io5";
 import sateconsultLogo from "../assets/sateconsultLogo.png";
 import MobileMenu from "./MobileMenu";
 
-const Header = ({ home, about, programs, contact, scrollToSection }) => {
+const Header = ({ home, about, services, contact, scrollToSection }) => {
   const [clickHamburger, setClickHamburger] = useState(false);
 
   const closeMobileMenu = () => {
@@ -27,8 +27,8 @@ const Header = ({ home, about, programs, contact, scrollToSection }) => {
           <li onClick={() => scrollToSection(about)}>
             <a href="#about">About</a>
           </li>
-          <li onClick={() => scrollToSection(programs)}>
-            <a href="#programs">Programs</a>
+          <li onClick={() => scrollToSection(services)}>
+            <a href="#services">Services</a>
           </li>
           <li onClick={() => scrollToSection(contact)}>
             <a href="#contact">Contact</a>
@@ -39,8 +39,7 @@ const Header = ({ home, about, programs, contact, scrollToSection }) => {
           <MobileMenu
             home={home}
             about={about}
-            programs={programs}
-            partners={partners}
+            services={services}
             contact={contact}
             scrollToSection={scrollToSection}
             isClicked={true}

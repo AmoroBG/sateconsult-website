@@ -3,8 +3,7 @@ import React from "react";
 const MobileMenu = ({
   home,
   about,
-  programs,
-  partners,
+  services,
   contact,
   scrollToSection,
   isClicked,
@@ -31,19 +30,11 @@ const MobileMenu = ({
         </li>
         <li
           onClick={() => {
-            scrollToSection(programs);
+            scrollToSection(services);
             isClicked && closeMobileMenu();
           }}
         >
-          <a href="#programs">Programs</a>
-        </li>
-        <li
-          onClick={() => {
-            scrollToSection(partners);
-            isClicked && closeMobileMenu();
-          }}
-        >
-          <a href="#partners">Partners</a>
+          <a href="#services">Services</a>
         </li>
         <li
           onClick={() => {
